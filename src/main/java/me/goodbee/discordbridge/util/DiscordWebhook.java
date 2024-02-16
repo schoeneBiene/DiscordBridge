@@ -13,7 +13,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Class used to execute Discord Webhooks with low effort
+ * Class used to execute Discord Webhooks
  */
 public class DiscordWebhook {
 

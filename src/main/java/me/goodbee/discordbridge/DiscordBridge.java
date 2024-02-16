@@ -17,6 +17,9 @@ import org.bukkit.scheduler.BukkitRunnable;
 
 import java.nio.Buffer;
 
+/**
+ * Main plugin class
+ */
 public final class DiscordBridge extends JavaPlugin {
     private String TOKEN;
     private JDA jda;
@@ -100,19 +103,27 @@ public final class DiscordBridge extends JavaPlugin {
         bridgeWebhook.delete().complete();
     }
 
+    /**
+     * Get the JDA instance
+     * @return The JDA instance
+     */
     public JDA getJDA() {
         return jda;
     }
 
+    /**
+     * Get the used command manager
+     * @return The [CommandsManager]
+     */
     public CommandsManager getCommandsManager() {
         return this.commandsManager;
     }
 
+    /**
+     * Get the Bridge Webhook
+     * @return The Bridge Webhook
+     */
     public Webhook getBridgeWebhook() {
         return this.bridgeWebhook;
-    }
-
-    public void setBridgeWebhook(String string) {
-
     }
 }

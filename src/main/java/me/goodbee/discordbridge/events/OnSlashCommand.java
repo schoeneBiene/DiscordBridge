@@ -5,6 +5,9 @@ import net.dv8tion.jda.api.events.interaction.command.SlashCommandInteractionEve
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 import org.jetbrains.annotations.NotNull;
 
+/**
+ * JDA Listener handling slash commands
+ */
 public class OnSlashCommand extends ListenerAdapter {
     private DiscordBridge plugin;
     public OnSlashCommand(DiscordBridge plugin) {

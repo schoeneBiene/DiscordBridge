@@ -10,8 +10,6 @@ import org.bukkit.ChatColor;
 import org.jetbrains.annotations.NotNull;
 
 public class MessageCreate extends ListenerAdapter {
-
-
     @Override
     public void onMessageReceived(@NotNull MessageReceivedEvent event) {
 

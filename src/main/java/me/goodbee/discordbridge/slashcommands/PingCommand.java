@@ -7,6 +7,9 @@ import net.dv8tion.jda.api.interactions.commands.build.Commands;
 import net.dv8tion.jda.api.interactions.commands.build.SlashCommandData;
 import org.jetbrains.annotations.NotNull;
 
+/**
+ * Simple command which responds with the TPS.
+ */
 public class PingCommand implements SlashCommand {
     @Override
     public void onCommand(@NotNull SlashCommandInteraction interaction, DiscordBridge plugin) {
