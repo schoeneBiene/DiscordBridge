@@ -1,0 +1,5 @@
+name: DiscordBridge
+version: '${project.version}'
+main: me.goodbee.discordbridge.DiscordBridge
+api-version: '1.19'
+load: STARTUP
