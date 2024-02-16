@@ -1,0 +1,7 @@
+me.goodbee.discordbridge
+me.goodbee.discordbridge.api.managers
+me.goodbee.discordbridge.api.objects
+me.goodbee.discordbridge.events
+me.goodbee.discordbridge.gameevents
+me.goodbee.discordbridge.slashcommands
+me.goodbee.discordbridge.util
